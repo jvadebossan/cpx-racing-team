@@ -340,6 +340,16 @@ input::placeholder{
 .dual{
     width: 49%;
 }
+.submit_btn{
+    width: 100%;
+    height: 45px;
+    margin: 12px 0px;
+    border: 0px;
+    border-radius: 7px;
+    outline: transparent;
+    background-color: var(--primary);
+    cursor: pointer;
+}
 
 
 
