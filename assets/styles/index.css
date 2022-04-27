@@ -37,6 +37,7 @@ body{
     min-height: 100vh;
     height: auto;
     background-color: var(--background);
+    overflow-x: hidden;
 }
 
 
@@ -135,6 +136,18 @@ main{
     height: auto;
     padding: 60px 100px;
     background-color: var(--background);
+}
+.about_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about_texts{
     display: flex;
@@ -268,7 +281,6 @@ main{
 }
 .sponsor img{
     width: 230px;
-    height: 100px;
 }
 .sponsor_text{
     color: var(--background);
@@ -419,6 +431,9 @@ footer nav ul li a{
     }
     html{
         font-size: 14px;
+    }
+    .about_row{
+        flex-wrap: wrap;
     }
 }
 
