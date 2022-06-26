@@ -6,7 +6,7 @@ function httpGet(theUrl){
     return xmlHttp.responseText
 }
 //get infos from api
-const res = JSON.parse(httpGet('http://127.0.0.1:5000/api/info'))
+const res = JSON.parse(httpGet('https://cpx-site-api.herokuapp.com/api/info'))
 
 
 //edit banner images
