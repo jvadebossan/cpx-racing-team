@@ -12,9 +12,12 @@ const res = JSON.parse(httpGet('https://cpx-site-api.herokuapp.com/api/info'))
 //edit banner images
 let banners = res.banners
 banners.forEach((element, index) => {
+    let banner_link = document.createElement('a')
+    banner_link.href = element.link
     let banner_img = document.createElement('img')
     banner_img.setAttribute('class', 'banner_img')
-    banner_img.src = element
+    banner_img.src = element.img
+    banner_link.appendChild(banner_img)
     let carousel = document.getElementsByClassName('carousel_banners')[0]
     carousel.appendChild(banner_img)
 })
