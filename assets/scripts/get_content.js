@@ -19,7 +19,7 @@ banners.forEach((element, index) => {
     banner_img.src = element.img
     banner_link.appendChild(banner_img)
     let carousel = document.getElementsByClassName('carousel_banners')[0]
-    carousel.appendChild(banner_img)
+    carousel.appendChild(banner_link)
 })
 
 
