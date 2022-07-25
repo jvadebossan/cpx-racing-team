@@ -43,6 +43,7 @@ team.forEach((element, index) => {
 
 //edit linkedin
 let linkedin = document.getElementsByClassName('linkedin')[0]
+console.log(res.linkedin)
 linkedin.src = res.linkedin
 
 
@@ -71,11 +72,6 @@ posts.forEach((element, index) => {
 });
 
 
-//sponsors_box
-    //<div class="sponsor">
-        //<img src="https://media.discordapp.net/attachments/962786684532039691/968711600905257010/Sesi_Senai.png" alt="patrocinador" data-aos="zoom-in">
-        //<p class="sponsor_text" data-aos="zoom-out-up" >Hoje instituições consolidadas nacional e internacionalmente, o SESI e o SENAl há décadas, ajudam a elevar o nível da formação educacional dos brasileiros e são instrumentos fundamentais para o desenvolvimento de uma indústria mais inovadora e competitiva.</p>
-    //</div>
 //edit sponsors
 let sponsors = res.sponsors
 sponsors.forEach((element, index) => {
