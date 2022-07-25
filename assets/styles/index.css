@@ -242,6 +242,7 @@ main{
     min-width: 300px;
     width: 25%;
     min-width: 325px;
+    margin: 0px 20px;
     margin-bottom: 70px;
 }
 .post img{
